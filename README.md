@@ -32,5 +32,9 @@ The next graph shows the empirical distribution is close to the assumption [1/3,
 ## Inference step
 After confirming the simulation is consistent with the assumptions. We implemented the forward and backward algorithms for alpha and beta, which are the standard terms in EM algorithm. With alpha and beta, we can infer the posterior probabilities for the rules after under observation of all games. The result is shown in the graph ![image](https://user-images.githubusercontent.com/75051599/196276600-87e02402-e5a3-4d10-8788-9c7bda594a2a.png)
 
+To show how inference is close to the likelihood of rules at each game, we plot the normalized likelihood of two rules. 
+![image](https://user-images.githubusercontent.com/75051599/196278925-ca6b33d3-208b-4a24-9f28-88e610d914ec.png)
+
+
         
  
