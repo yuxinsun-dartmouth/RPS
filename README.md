@@ -18,14 +18,16 @@ The human RPS in simulation shows the sequence of RPS under the rules switching.
 
 The human WTS in simulation shows the sequence of WTL under the rules switching. ![image](https://user-images.githubusercontent.com/75051599/196277903-d3fff47b-8dfb-4de2-8473-264ce4dca1c1.png)
 
-The graph
+The graph shows the empirical distribution is close to the assumption [0.1, 0.8, 0.1];
 ![image](https://user-images.githubusercontent.com/75051599/196277452-e803f755-0adb-48ae-b5f4-234479411f5f.png)
 
-shows the empirical distribution is close to the assumption [0.1, 0.8, 0.1]; the ![image](https://user-images.githubusercontent.com/75051599/196277169-4489b3bb-196a-4e26-8e91-53a28af1494a.png)
+The next graph shows the empirical distribution is close to the assumption [0.2, 0.1, 0.7]; 
+![image](https://user-images.githubusercontent.com/75051599/196277169-4489b3bb-196a-4e26-8e91-53a28af1494a.png)
 
-shows the empirical distribution is close to the assumption [0.2, 0.1, 0.7]; the ![image](https://user-images.githubusercontent.com/75051599/196276981-3ae4ee14-c409-464d-a00d-dd1569df2a48.png)
+The next graph shows the empirical distribution is close to the assumption [1/3, 1/3, 1/3]. 
+![image](https://user-images.githubusercontent.com/75051599/196276981-3ae4ee14-c409-464d-a00d-dd1569df2a48.png)
 
- shows the empirical distribution is close to the assumption [1/3, 1/3, 1/3]. 
+ 
 
 ## Inference step
 After confirming the simulation is consistent with the assumptions. We implemented the forward and backward algorithms for alpha and beta, which are the standard terms in EM algorithm. With alpha and beta, we can infer the posterior probabilities for the rules after under observation of all games. The result is shown in the graph ![image](https://user-images.githubusercontent.com/75051599/196276600-87e02402-e5a3-4d10-8788-9c7bda594a2a.png)
