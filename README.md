@@ -11,7 +11,10 @@ and Q2 = [[1/3, 1/3, 1/3],
 respectively, and the transition matrix between the two rules is 
 P = [[0.9, 0.1],
         [0.9, 0.1]]. We also assume AI is playing RPS randomly at equal probability in each game. Under such assumptions, we can simulate a number of games. 
-The result of the simulation is shown in rule-switching in simulation. The human RPS in simulation shows the sequence of RPS under the rules switching. The human WTS in simulation shows the sequence of WTL under the rules switching. The graph
+The result of the simulation is shown in rule-switching in simulation as follows
+![image](https://user-images.githubusercontent.com/75051599/196277623-b086ac0a-9bcc-4d25-a212-78538883aefb.png)
+
+The human RPS in simulation shows the sequence of RPS under the rules switching. The human WTS in simulation shows the sequence of WTL under the rules switching. The graph
 ![image](https://user-images.githubusercontent.com/75051599/196277452-e803f755-0adb-48ae-b5f4-234479411f5f.png)
 
 shows the empirical distribution is close to the assumption [0.1, 0.8, 0.1]; the ![image](https://user-images.githubusercontent.com/75051599/196277169-4489b3bb-196a-4e26-8e91-53a28af1494a.png)
