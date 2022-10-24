@@ -39,7 +39,8 @@ Next we start with the known Q1 and Q2 and use EM to learn P transition only. We
 
 ![image](https://user-images.githubusercontent.com/75051599/197563987-e93bfb1e-734e-4b1a-b0d5-728dd1f56614.png)
 
-![image](https://user-images.githubusercontent.com/75051599/197564069-600a15d9-7857-4468-8bf9-cdda3e05babc.png)
+![image](https://user-images.githubusercontent.com/75051599/197564370-c1e68c9d-5f8a-4b9f-bdcb-7d60df92d80a.png)
+
 
 
 
