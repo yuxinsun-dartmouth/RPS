@@ -52,13 +52,14 @@ Next we start with the known Q1 and Q2 and use EM to learn P transition only. Th
 
 ![image](https://user-images.githubusercontent.com/75051599/197564370-c1e68c9d-5f8a-4b9f-bdcb-7d60df92d80a.png)
 
+The sample joint distributions of P[1,1] and P[2,2] shows the two marginal normal distributions 
+
+![image](https://user-images.githubusercontent.com/75051599/197589233-0c7482db-9225-423a-acc3-504ad2b04246.png)
+
 We also see the convergence of the log likelihood as EM runs, the next plot shows the growth of the likelihood vs the number of iterations.
 
 ![image](https://user-images.githubusercontent.com/75051599/197565354-cae5a98b-15a1-4eb3-8022-f41040289495.png)
 
-The sample joint distributions of P[1,1] and P[2,2] shows the two marginal normal distributions 
-
-![image](https://user-images.githubusercontent.com/75051599/197589233-0c7482db-9225-423a-acc3-504ad2b04246.png)
 
 
 
