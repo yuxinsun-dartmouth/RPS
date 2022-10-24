@@ -35,6 +35,14 @@ After confirming the simulation is consistent with the assumptions. We implement
 To show how inference is close to the likelihood of rules at each game, we plot the normalized likelihood of two rules. 
 ![image](https://user-images.githubusercontent.com/75051599/196278925-ca6b33d3-208b-4a24-9f28-88e610d914ec.png)
 
+Next we start with the known Q1 and Q2 and use EM to learn P transition only. We run a simulation of 1000 games multiple times and plot the distribution of P[1,1] and P[2,2] as follows:
+
+![image](https://user-images.githubusercontent.com/75051599/197563987-e93bfb1e-734e-4b1a-b0d5-728dd1f56614.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197564069-600a15d9-7857-4468-8bf9-cdda3e05babc.png)
+
+
+
 
         
  
