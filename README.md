@@ -30,10 +30,17 @@ The next graph shows the empirical distribution is close to the assumption [1/3,
  
 
 ## Inference step
-After confirming the simulation is consistent with the assumptions. We implemented the forward and backward algorithms for alpha and beta, which are the standard terms in EM algorithm. With alpha and beta, we can infer the posterior probabilities for the rules after under observation of all games. The result is shown in the graph ![image](https://user-images.githubusercontent.com/75051599/196276600-87e02402-e5a3-4d10-8788-9c7bda594a2a.png)
+After confirming the simulation is consistent with the assumptions. We implemented the forward and backward algorithms for alpha and beta, which are the standard terms in EM algorithm. With alpha and beta, we can infer the posterior probabilities for the rules after under observation of all games. We first fix the known P, Q1 and Q2 and infer the posterior probabilities, the true P is [[0.9, 0.1],[0.9, 0.1]]. The result is shown in the graph ![image](https://user-images.githubusercontent.com/75051599/196276600-87e02402-e5a3-4d10-8788-9c7bda594a2a.png)
 
 To show how inference is close to the likelihood of rules at each game, we plot the normalized likelihood of two rules. 
 ![image](https://user-images.githubusercontent.com/75051599/196278925-ca6b33d3-208b-4a24-9f28-88e610d914ec.png)
+
+We show the posterior distribution grouped by the two rules as follows
+
+![image](https://user-images.githubusercontent.com/75051599/197584387-b006ca34-40d7-4ab4-9102-d02279ae373f.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197584444-8fa1e69f-aa1c-4bc1-807f-405960b4ba14.png)
+We see the posterior is pushed to the extreme regardless of the rules.
 
 ## EM step
 Next we start with the known Q1 and Q2 and use EM to learn P transition only. The true P here is [[0.7, 0.3], [0.4, 0.6]]. We run a simulation of 1000 games multiple times and plot the distribution of P[1,1] and P[2,2] as follows (the sample size is chosen 100):
