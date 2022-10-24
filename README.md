@@ -56,6 +56,11 @@ We also see the convergence of the log likelihood as EM runs, the next plot show
 
 ![image](https://user-images.githubusercontent.com/75051599/197565354-cae5a98b-15a1-4eb3-8022-f41040289495.png)
 
+The sample joint distributions of P[1,1] and P[2,2] shows the two marginal normal distributions 
+
+![image](https://user-images.githubusercontent.com/75051599/197589233-0c7482db-9225-423a-acc3-504ad2b04246.png)
+
+
 
 
 
