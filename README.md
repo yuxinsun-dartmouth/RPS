@@ -60,6 +60,19 @@ We also see the convergence of the log likelihood as EM runs, the next plot show
 
 ![image](https://user-images.githubusercontent.com/75051599/197565354-cae5a98b-15a1-4eb3-8022-f41040289495.png)
 
+Next we will fix P and search for Q1 and Q2. Finding Q1 and Q2 is more important than P; this is because, we can start with P to be [0.5 0.5;0.5 0.5] - a non-biased and intuitive one; we than estimate Q1 and Q2 using EM and we are interested in Posterior of our rules without injecting Bias in P. Thus, we can check whether we benefit from finding P down the road or using a non-informative prior for it.
+
+The next three graphs shows the distributions of elements in three rows in Q1
+
+![image](https://user-images.githubusercontent.com/75051599/197660829-1303d872-0658-4af1-8eb7-7ffec9267c0f.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197661586-ca8ba740-986f-49c5-a626-8ad367cedb9d.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197661649-a44f1025-e79a-4047-9f22-9be66482e403.png)
+
+
+
+
 
 
 
