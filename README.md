@@ -70,6 +70,15 @@ The next three graphs shows the distributions of elements in three rows in Q1
 
 ![image](https://user-images.githubusercontent.com/75051599/197661649-a44f1025-e79a-4047-9f22-9be66482e403.png)
 
+The Q2 matrix has all elements 1/3, distributions of entries are shown below
+
+![image](https://user-images.githubusercontent.com/75051599/197661801-e5647cfe-c9e3-4338-ba0a-9d0a5784e8b8.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197661844-5e43805a-762b-41e7-853f-b0b8141945a7.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197661873-43d204a8-1bca-4b4b-b062-331decc979fd.png)
+
+
 
 
 
