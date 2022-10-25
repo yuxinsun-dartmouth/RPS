@@ -83,9 +83,9 @@ We also check the posterior of rules
 
 ![image](https://user-images.githubusercontent.com/75051599/197662218-d9177617-3802-4ffd-8ffb-ecab0a305338.png)
 
-![image](https://user-images.githubusercontent.com/75051599/197662295-1ff7fe44-a6a9-4cde-9222-1150b6aab90d.png)
+![image](https://user-images.githubusercontent.com/75051599/197662516-b326e004-e698-4038-8bf3-848ea96d0a7e.png)
 
-![image](https://user-images.githubusercontent.com/75051599/197662329-0bb1c83f-9659-42e4-8159-09a85d768295.png)
+![image](https://user-images.githubusercontent.com/75051599/197662570-fc19b40d-aa54-45ee-9a5d-944ae1de23cd.png)
 
 
 
