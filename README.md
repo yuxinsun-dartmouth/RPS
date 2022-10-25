@@ -78,6 +78,15 @@ The Q2 matrix has all elements 1/3, distributions of entries are shown below
 
 ![image](https://user-images.githubusercontent.com/75051599/197661873-43d204a8-1bca-4b4b-b062-331decc979fd.png)
 
+We also check the posterior of rules
+
+
+![image](https://user-images.githubusercontent.com/75051599/197662218-d9177617-3802-4ffd-8ffb-ecab0a305338.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197662295-1ff7fe44-a6a9-4cde-9222-1150b6aab90d.png)
+
+![image](https://user-images.githubusercontent.com/75051599/197662329-0bb1c83f-9659-42e4-8159-09a85d768295.png)
+
 
 
 
